@@ -1,4 +1,4 @@
-import React, {ReactDOM} from './not-react';
+import React from './not-react';
 
 function Counter() {
   const [count, setCount] = React.useState(65);
@@ -25,5 +25,3 @@ function Counter() {
     </>
   );
 }
-
-ReactDOM.render(<Counter />, document.getElementById("root"));
